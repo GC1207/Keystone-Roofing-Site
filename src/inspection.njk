@@ -1,0 +1,29 @@
+---
+layout: 'base.njk'
+title: 'Schedule an Inspection'
+---
+
+    <div class="inspection-header"> 
+        <div class="inspection-header-text">
+        <h1>Schedule an Inspection</h1>
+        <p>Get in touch to find the solution that works for you.</p>
+        </div>
+    </div>
+        <div class="inspection-form">
+            <form>
+                <img src="/assets/logo-blk-blk-cropped.svg" alt="Keystone logo">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+                <input type="submit" value="Send" class="submit-btn">
+            </form>
+        </div>

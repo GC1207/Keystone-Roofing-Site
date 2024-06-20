@@ -1,0 +1,91 @@
+---
+layout: 'base.njk'
+title: 'About Keystone Roofing, Our Process, and Why Conklin'
+---
+
+<div class="about-more">
+    <h1>Our Process</h1>
+    <div class="about-explain">
+        <p>At Keystone Roofing, we specialize in restoring commercial roofs using high-quality Conklin products. Our
+            process is designed to extend the life of your existing roof, improve energy efficiency, and save you money
+            on costly replacements.</p>
+                <ul class="about-ul">
+                    <li>We start by thoroughly inspecting your roof and cleaning it with Conklin's specialized cleaners
+                        to ensure optimal adhesion of the coating system.</li>
+                    <li>Next we apply a primer to improve the adhesion of the coating and protect against
+                        rust (for metal roofs).</li>
+                    <li>We then reinforce all seams, fasteners, and penetrations with Conklin's high-strength
+                        Spunflex fabric and Kwik Kaulk to prevent leaks.</li>
+                    <li>Finally, we apply Conklin's high-quality, reflective top coat to your entire roof surface.</li>
+                </ul>
+            <p>You can choose from a variety of coating options, including PUMA XL, Benchmark, Rapid Roof III, Rapid Roof
+            HV, or Equinox, depending on your specific needs and budget.</p>
+    </div>
+    <div class="why-conklin">
+        <h1>Why Conklin</h1>
+        <div class="why-conklin-1">
+            <img src="/assets/money-dollar-svgrepo-com.svg" alt="Why Conklin">
+            <p>Conklin's roof restoration systems are cost-effective, saving you up to 50% compared to the cost of a new
+                roof. Plus, their cool roof systems can significantly reduce your energy costs, providing long-term
+                savings.</p>
+        </div>
+        <div class="why-conklin-1">
+            <img src="/assets/cold-svgrepo-com.svg" alt="Why Conklin">
+            <p>Conklin's cool roof systems are highly reflective, reducing roof temperatures by up to 40% and decreasing
+                the amount of heat transferred into your building. This leads to a cooler, more comfortable work
+                environment and less strain on your HVAC system.</p>
+        </div>
+        <div class="why-conklin-1">
+            <img src="/assets/energy-svgrepo-com.svg" alt="Why Conklin">
+            <p>Conklin's ENERGY STAR-rated cool roof systems can significantly reduce your building's cooling costs. By
+                reflecting up to 85% of the sun's heat, these systems minimize the energy needed to cool your building,
+                resulting in lower utility bills and reduced environmental impact.</p>
+        </div>
+    </div>
+</div>
+<div class="about-cards">
+    <div class="about-cards-1">
+        <button type="button" class="toggle-btn" onclick="divVisibilty('Div1')">Metal Roofs</button>
+        <div id="Div1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="about-cards-2">
+        <button type="button" class="toggle-btn" onclick="divVisibilty('Div2')">Metal Roofs</button>
+        <div id="Div2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    <div class="about-cards-3">
+        <button type="button" class="toggle-btn" onclick="divVisibilty('Div3')">Metal Roofs</button>
+        <div id="Div3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    let divs = ["Div1", "Div2", "Div3"];
+    let visibleDivId = null;
+    function divVisibilty(divId) {
+        if (visibleDivId === divId) {
+            visibleDivId = null;
+        } else {
+            visibleDivId = divId;
+        }
+        hideNonVisibleDivs();
+    }
+    function hideNonVisibleDivs() {
+        let i, divId, div;
+        for (let i = 0; i < divs.length; i++) {
+            divId = divs[i];
+            div = document.getElementById(divId);
+            if (visibleDivId === divId) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    }
+</script>

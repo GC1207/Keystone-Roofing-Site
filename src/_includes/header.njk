@@ -1,0 +1,44 @@
+<header>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("navbar-menu");
+      x.classList.toggle("active");
+    }
+    </script>
+    <div class="full-nav">
+    <img src="/assets/7-cropped.svg" alt="Keystone logo">
+
+    <div class="nav-bar">
+        <a href="/index.html">Home</a>
+        <a href="/index/#intro-nav">About</a>
+        <a href="/index/#services-nav">Services</a>
+        <a href="/index/#contact-nav">Contact</a>
+    </div>
+        <div class="quote">
+            <button type="button" class="quote-btn" onclick="location.href='/inspection/'">Schedule an Inspection</button>
+        </div>
+    </div>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-logo">
+          <a href="/"><img src="/assets/7-cropped.svg" alt="Keystone logo"></a>
+          <div class="navbar-menu-icon">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars" style="font-size: 60px; text-align: center; text-decoration: none; color: black;" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+          <div class="navbar-menu-links">
+            <a href="/index.html">Home</a>
+            <a href="/#intro-nav">About</a>
+            <a href="/#services-nav">Services</a>
+            <a href="/#contact-nav">Contact</a>
+            <div class="quote">
+              <button type="button" class="quote-btn" onclick="location.href='/inspection/'">Schedule an Inspection</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>

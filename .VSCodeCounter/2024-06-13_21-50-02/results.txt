@@ -1,0 +1,121 @@
+Date : 2024-06-13 21:50:02
+Directory : c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site
+Total : 74 files,  8154 codes, 160 comments, 986 blanks, all 9300 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          2 |      3,930 |        150 |        834 |      4,914 |
+| JSON       |          2 |      2,225 |          0 |          2 |      2,227 |
+| HTML       |         35 |      1,880 |          0 |         89 |      1,969 |
+| XML        |         32 |         90 |         10 |         58 |        158 |
+| JavaScript |          3 |         29 |          0 |          3 |         32 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                  | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                     |         74 |      8,154 |        160 |        986 |      9,300 |
+| . (Files)                                                                                             |          3 |      2,238 |          0 |          4 |      2,242 |
+| public                                                                                                |         39 |      3,306 |         80 |        511 |      3,897 |
+| public (Files)                                                                                        |          2 |      2,256 |         75 |        427 |      2,758 |
+| public\about-more                                                                                     |          1 |        171 |          0 |          6 |        177 |
+| public\assets                                                                                         |         16 |         45 |          5 |         29 |         79 |
+| public\inspection                                                                                     |          1 |        110 |          0 |          5 |        115 |
+| public\pdf-pages                                                                                      |         19 |        724 |          0 |         44 |        768 |
+| public\pdf-pages (Files)                                                                              |         13 |        120 |          0 |         13 |        133 |
+| public\pdf-pages\cool-roofs                                                                           |          1 |        101 |          0 |          6 |        107 |
+| public\pdf-pages\fabric-reinforced                                                                    |          1 |        101 |          0 |          5 |        106 |
+| public\pdf-pages\membrane-roofs                                                                       |          1 |        100 |          0 |          5 |        105 |
+| public\pdf-pages\metal-roofs                                                                          |          1 |         99 |          0 |          5 |        104 |
+| public\pdf-pages\single-ply                                                                           |          1 |        101 |          0 |          5 |        106 |
+| public\pdf-pages\spray-foam                                                                           |          1 |        102 |          0 |          5 |        107 |
+| src                                                                                                   |         32 |      2,610 |         80 |        471 |      3,161 |
+| src (Files)                                                                                           |          5 |      2,299 |         75 |        426 |      2,800 |
+| src\_includes                                                                                         |          5 |        154 |          0 |          9 |        163 |
+| src\assets                                                                                            |         16 |         45 |          5 |         29 |         79 |
+| src\pdf-pages                                                                                         |          6 |        112 |          0 |          7 |        119 |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                              | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\.eleventy.js                                  | JavaScript |         13 |          0 |          2 |         15 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\package-lock.json                             | JSON       |      2,209 |          0 |          1 |      2,210 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\package.json                                  | JSON       |         16 |          0 |          1 |         17 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\about-more\index.html                  | HTML       |        171 |          0 |          6 |        177 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\10.svg                          | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\13-cropped.svg                  | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\13.svg                          | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\7-cropped.svg                   | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\7.svg                           | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\acclaim-square-cropped.svg      | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\acclaim-square.svg              | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\cold-svgrepo-com.svg            | XML        |          8 |          1 |          7 |         16 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\cross-svgrepo-com.svg           | XML        |          6 |          1 |          5 |         12 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\energy-svgrepo-com.svg          | XML        |          6 |          1 |          5 |         12 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\logo-blk-blk-cropped.svg        | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\logo-blk-blk.svg                | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\logo-blk-white.svg              | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\logo-white-white.svg            | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\money-dollar-svgrepo-com.svg    | XML        |          6 |          1 |          5 |         12 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\assets\money-svgrepo-com.svg           | XML        |          8 |          1 |          7 |         16 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\index.html                             | HTML       |        291 |          0 |         10 |        301 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\inspection\index.html                  | HTML       |        110 |          0 |          5 |        115 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\cool-roofs.html              | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\cool-roofs.njk               | HTML       |         19 |          0 |          2 |         21 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\cool-roofs\index.html        | HTML       |        101 |          0 |          6 |        107 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\fabric-reinforced.html       | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\fabric-reinforced.njk        | HTML       |         19 |          0 |          1 |         20 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\fabric-reinforced\index.html | HTML       |        101 |          0 |          5 |        106 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\membrane-roofs.html          | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\membrane-roofs.njk           | HTML       |         18 |          0 |          1 |         19 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\membrane-roofs\index.html    | HTML       |        100 |          0 |          5 |        105 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\metal-roofs.html             | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\metal-roofs.njk              | HTML       |         17 |          0 |          1 |         18 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\metal-roofs\index.html       | HTML       |         99 |          0 |          5 |        104 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\scripts.js                   | JavaScript |          8 |          0 |          0 |          8 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\single-ply.html              | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\single-ply.njk               | HTML       |         19 |          0 |          1 |         20 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\single-ply\index.html        | HTML       |        101 |          0 |          5 |        106 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\spray-foam.html              | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\spray-foam.njk               | HTML       |         20 |          0 |          1 |         21 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\pdf-pages\spray-foam\index.html        | HTML       |        102 |          0 |          5 |        107 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\public\styles.css                             | CSS        |      1,965 |         75 |        417 |      2,457 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\_includes\base-index.njk                  | HTML       |         22 |          0 |          3 |         25 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\_includes\base.njk                        | HTML       |         22 |          0 |          3 |         25 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\_includes\footer.njk                      | HTML       |         24 |          0 |          0 |         24 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\_includes\header-index.njk                | HTML       |         43 |          0 |          2 |         45 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\_includes\header.njk                      | HTML       |         43 |          0 |          1 |         44 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\about-more.njk                            | HTML       |         89 |          0 |          2 |         91 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\10.svg                             | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\13-cropped.svg                     | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\13.svg                             | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\7-cropped.svg                      | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\7.svg                              | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\acclaim-square-cropped.svg         | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\acclaim-square.svg                 | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\cold-svgrepo-com.svg               | XML        |          8 |          1 |          7 |         16 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\cross-svgrepo-com.svg              | XML        |          6 |          1 |          5 |         12 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\energy-svgrepo-com.svg             | XML        |          6 |          1 |          5 |         12 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\logo-blk-blk-cropped.svg           | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\logo-blk-blk.svg                   | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\logo-blk-white.svg                 | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\logo-white-white.svg               | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\money-dollar-svgrepo-com.svg       | XML        |          6 |          1 |          5 |         12 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\assets\money-svgrepo-com.svg              | XML        |          8 |          1 |          7 |         16 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\index.njk                                 | HTML       |        209 |          0 |          5 |        214 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\inspection.njk                            | HTML       |         28 |          0 |          1 |         29 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\pdf-pages\cool-roofs.njk                  | HTML       |         19 |          0 |          2 |         21 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\pdf-pages\fabric-reinforced.njk           | HTML       |         19 |          0 |          1 |         20 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\pdf-pages\membrane-roofs.njk              | HTML       |         18 |          0 |          1 |         19 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\pdf-pages\metal-roofs.njk                 | HTML       |         17 |          0 |          1 |         18 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\pdf-pages\single-ply.njk                  | HTML       |         19 |          0 |          1 |         20 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\pdf-pages\spray-foam.njk                  | HTML       |         20 |          0 |          1 |         21 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\scripts.js                                | JavaScript |          8 |          0 |          1 |          9 |
+| c:\Users\gil20\OneDrive\Documents\Keystone-Roofing-Site\src\styles.css                                | CSS        |      1,965 |         75 |        417 |      2,457 |
+| Total                                                                                                 |            |      8,154 |        160 |        986 |      9,300 |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
