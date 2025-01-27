@@ -2363,16 +2363,12 @@ footer p {
     }
 
     .contact-header a {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .contact-text p{
         font-size: 1rem;
         font-weight: 600;
-    }
-
-    .contact-text a {
-        max-width: 100%;
     }
 
     .service-area p{
